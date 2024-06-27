@@ -1,0 +1,63 @@
+.food-display {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.food-display h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.food-display-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+.food-item {
+  background-color: #fff; /* White background for each item */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.food-item:hover {
+  transform: translateY(-5px); /* Lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.food-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Maintain aspect ratio */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.food-info {
+  padding: 16px;
+}
+
+.food-info h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.food-info p {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.food-info .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745; /* Green color for price */
+}

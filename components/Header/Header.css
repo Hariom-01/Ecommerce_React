@@ -1,0 +1,43 @@
+/* Header.css */
+
+.header {
+  height: 34vw;
+  margin: 30px auto;
+  background: url('/header_img.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Aligns content to the bottom */
+  text-align: center;
+  padding-bottom: 2rem; /* Adds some padding at the bottom for spacing */
+}
+
+.header-content {
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-content button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-content button:hover {
+  background-color: #ff4500;
+}

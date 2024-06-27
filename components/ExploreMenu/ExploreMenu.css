@@ -1,0 +1,57 @@
+/* ExploreMenu.css */
+
+.explore-men {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.explore-men h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.explore-menu-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.explore-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.explore-menu-list-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 200px;
+  text-align: center;
+}
+
+.explore-menu-list-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.explore-menu-list-item p {
+  font-size: 1rem;
+  color: #333;
+  padding: 10px;
+}
+
+.explore-menu-list-item:hover {
+  transform: scale(1.05);
+}
+.explore-menu-list-item .active{
+  border: 4px solid rgb(0, 51, 255);
+  padding: 3px;
+  
+}

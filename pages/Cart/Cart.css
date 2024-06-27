@@ -1,0 +1,133 @@
+/* Cart.css */
+
+.cart {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  width: 100%;
+}
+
+.cart-item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.cart-item-title p {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cart-item-title img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.cart-items-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.cart-items-item p {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+}
+
+.cart-items-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.cart-items-item p:nth-child(6) {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.cart-bottom {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-total {
+  width: 100%;
+}
+
+.cart-total h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-total-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.cart-total-detail p, .cart-total-detail b {
+  margin: 0;
+}
+
+.cart-total-detail b {
+  font-weight: bold;
+}
+
+.cart-total button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.cart-total button:hover {
+  background-color: #0056b3;
+}
+
+.cart-promocode {
+  margin-top: 20px;
+}
+
+.cart-promocode input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart-promocode button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-promocode button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,55 @@
+
+.add:hover {
+  transform: scale(1.1);
+}
+
+/* Styles for the counter next to the food item */
+.food-item-counter {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.food-item-counter img {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+.food-item-counter p {
+  margin: 0 8px;
+  font-size: 1.2rem;
+}
+
+/* Styles for the main content area of the food item */
+.food-info {
+  padding: 16px;
+}
+
+.food-name-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.food-name-rating p {
+  font-size: 1.6rem;
+  margin-right: 8px;
+  color: #333333;
+}
+
+.food-name-rating img {
+  width: 80px;
+  height: auto;
+}
+
+/* Styles for the price of the food item */
+.food-item-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #28a745; /* Green color for the price */
+}
